@@ -1,0 +1,31 @@
+doctype
+html(lang=config.language)
+    head
+        include head
+    body
+        .wrap
+            header
+                a.logo-link(href=url_for())
+                    img(src=url_for(theme.logo) alt="logo")
+                include nav
+            main.container
+                block container
+            div
+            <div class="fb-page" data-href="https://www.facebook.com/&#x7279;&#x6a5f;&#x5eda;&#x5e2b;-Meet-Happiness-&#x6a5f;&#x68b0;&#x9031;-574890299336105/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/&#x7279;&#x6a5f;&#x5eda;&#x5e2b;-Meet-Happiness-&#x6a5f;&#x68b0;&#x9031;-574890299336105/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/&#x7279;&#x6a5f;&#x5eda;&#x5e2b;-Meet-Happiness-&#x6a5f;&#x68b0;&#x9031;-574890299336105/">特機廚師, Meet Happiness-機械週</a></blockquote></div>
+            footer
+                block pagination
+                block copyright
+        include scripts
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+script(async src="https://www.googletagmanager.com/gtag/js?id=UA-164228810-1" )
+script.
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164228810-1');
+
+<div id="fb-root"></div>
+script( async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0")
