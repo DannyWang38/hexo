@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 帥哥的coding之路
 subtitle: ''
-description: ''
+description: 好點子沒價值，有價值的是把好點子實現 
 keywords:
-author: John Doe
-language: en
+author: Danny
+language: zh-TW
 timezone: ''
 
 # URL
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: apollo
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +101,13 @@ deploy:
   type: git
   repo: https://github.com/DannyWang38/hexo-test.git
   branch: gh-pages
+
+
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+ 
