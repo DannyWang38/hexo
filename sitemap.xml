@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dannywang38.github.io/hexo/about/index.html</loc>
+    
+    <lastmod>2020-04-25T02:48:56.409Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dannywang38.github.io/hexo/2020/04/24/danny/</loc>
     
     <lastmod>2020-04-24T07:41:53.204Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://dannywang38.github.io/hexo/2020/04/22/happy/</loc>
     
     <lastmod>2020-04-23T14:49:43.131Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dannywang38.github.io/hexo/about/index.html</loc>
-    
-    <lastmod>2020-04-23T13:13:04.230Z</lastmod>
     
   </url>
   
